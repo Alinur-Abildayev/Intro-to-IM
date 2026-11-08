@@ -20,7 +20,8 @@ void loop() {
   int switchState = digitalRead(switchPin);
 
   if (switchState == HIGH) {
-    
+  
+    //For this part with ultrasonic sensor, I used Gemini AI to help me figure out how to set it up
     digitalWrite(trig, LOW);
     delayMicroseconds(2);
     digitalWrite(trig, HIGH);
