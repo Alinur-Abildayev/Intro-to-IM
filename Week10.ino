@@ -1,5 +1,5 @@
 
-const int potPin = A0;
+const int potPin = A2;
 const int greenButton = 2;
 const int redButton = 3;
 const int yellowButton = 4;
